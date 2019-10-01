@@ -1,0 +1,7 @@
++ Binary Search
++ Interpolation Search
++ Jump Search
++ Linear Search
++ Quick Search
++ Sentinel Linear Search
++ Ternary Search
