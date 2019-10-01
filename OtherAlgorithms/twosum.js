@@ -1,4 +1,4 @@
-function arr(nums,target){
+function twoSums(nums,target){
 
 for(let j=0;j<nums.length;j++){
   
@@ -14,4 +14,4 @@ if(nums[j]+nums[k]== target){
   
 
 
-console.log(arr([1,2,3,4,5,6,7,8,9,10], 8)) // [1,7]
+console.log(twoSums([1,2,3,4,5,6,7,8,9,10], 8)) // [1,7]
