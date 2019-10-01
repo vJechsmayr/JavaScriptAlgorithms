@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascrip Algorithm</title>
+
+	<script type="text/javascript" src="./fibonacci.js"></script>
+</head>
+<body>
+	<h1>Go to console</h1>
+	<br>
+	<h2>Type fibonacci(n), where n is the number of elements you want in series</h2>
+	
+	<br>
+	<br>
+	<br>
+
+	<h3>OR just playaround with number</h3>
+
+	<input id="number" type="number" placeholder="input number" onchange="displayFibs()">
+
+	<div id="fib_content"></div>
+</body>
+
+	<script type="text/javascript">
+		function displayFibs () {
+			const input = document.getElementById("number")
+			const fibs = fibonacci(parseInt(input.value))
+			const content = document.getElementById("fib_content")
+			content.innerHTML = ""
+
+			for (i=0;i<fibs.length;i++) {
+				let div = document.createElement('span');
+
+				div.innerHTML = "<span>" + fibs[i] + ", </span>"
+				content.appendChild(div);
+			}
+		}
+	</script>
+</html>
