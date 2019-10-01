@@ -8,7 +8,7 @@ There implementations are for learning purposes. If you want to contribute more 
 
 You can look for Algorithms to implement at: [LeetCode Algorithms](https://leetcode.com/problemset/algorithms/) 
 
-To contribute make sure the Algorithm isn't commited yet!
+To contribute make sure the Algorithm isn't commited yet! Make sure to add the number of the Issue in your PR.
 
 
 ## Getting Started
