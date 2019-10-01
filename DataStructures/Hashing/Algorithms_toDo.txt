@@ -1,0 +1,3 @@
++ double hash
++ hash table
++ hash table with linked list
