@@ -1,20 +1,12 @@
-# hacktoberfest2019
-Participate in Hacktoberfest by contributing to any Open Source project on GitHub! Here is a starter project for first time contributors. #hacktoberfest
+# The Algorithms - JavaScript
 
-# What is hacktoberfest?
-A celebration from 1st October to 31st October - sponsored by [Digital Ocean](https://hacktoberfest.digitalocean.com/), [GitHub](https://github.com/) and [Dev](https://dev.to/). The hacktoberfest is a possibility to set a first step to [Open Source](https://github.com/open-source) Projects.
-Register yourself at Digital Ocean and create your first pull requrest to any public repository on GitHub to contribute.
+### All algorithms implemented in JavaScript (for education)
+There implementations are for learning purposes. If you want to contribute more efficient solutions feel free to open an issue and commit your solution.
 
-## About this project
-This project is about to learn and practice coding.
 
-Solution for [LeetCode Algorithms](https://leetcode.com/problemset/algorithms/) are wanted.
+## Inspiration
 
-Make sure you add the LeetCode Problem to your PR.
-
-```markdown 
-PR-Descr.: Solution for LeetCode Algorithms-Problem #1 Two Sum - Difficulty Easy
-```
+You can look for Algorithms to implement at: [LeetCode Algorithms](https://leetcode.com/problemset/algorithms/) 
 
 To contribute make sure the Algorithm isn't commited yet!
 
