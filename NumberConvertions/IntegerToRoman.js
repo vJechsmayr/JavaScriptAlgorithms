@@ -2,7 +2,7 @@ const KEYS = ["","C","CC","CCC","CD","D","DC","DCC","DCCC","CM",
                "","X","XX","XXX","XL","L","LX","LXX","LXXX","XC",
                "","I","II","III","IV","V","VI","VII","VIII","IX"];
 
-const DecimalToRoman = num => {
+const IntegerToToman = num => {
   if (isNaN(num)) return `value "${num}" is not a number`;
   if(!Number.isInteger(num)) return `value "${num}" is not an integer`;
   const digits = String(+num).split("")
