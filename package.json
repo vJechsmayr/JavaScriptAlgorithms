@@ -1,0 +1,21 @@
+{
+  "name": "javascriptalgorithms",
+  "version": "0.0.0",
+  "description": "All algorithms implemented in JavaScript (for education) There implementations are for learning purposes. If you want to contribute more efficient solutions feel free to open an issue and commit your solution.",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vJechsmayr/JavaScriptAlgorithms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vJechsmayr/JavaScriptAlgorithms/issues"
+  },
+  "homepage": "https://github.com/vJechsmayr/JavaScriptAlgorithms#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
