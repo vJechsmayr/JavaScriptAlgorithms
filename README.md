@@ -13,7 +13,7 @@ To contribute make sure the Algorithm isn't commited yet! Make sure to add the n
 
 ## Getting Started
 * Fork this repository (Click the Form button, top right of this page)
-* Clone your fork fown to your local machine
+* Clone your fork down to your local machine
 ```markdown
 git clone https://github.com/your-username/hacktoberfest.git
 ```
