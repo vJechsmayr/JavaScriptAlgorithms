@@ -2,7 +2,7 @@
 //Author: Tran Lan Anh
 //Github: https://github.com/Lanhbao
 
-function bubleSort(arr){
+function bubbleSort(arr){
     for(let i = arr.length-1; i > 0; i--){
       for(let j = 0; j < i; j++){
         if(arr[j] >= arr[j+1]){
