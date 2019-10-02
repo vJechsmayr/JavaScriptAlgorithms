@@ -54,12 +54,12 @@ test('we can delete from the linked list', () => {
     expect(ll.head).toEqual(null);
 });
 
-test('we receive false when trying to delete from an empty linked list', () => {
+test('we receive false when trying to delete a non-existant node', () => {
     const ll = new LinkedList();
     expect (ll.deleteWithValue('repoName', 'nothing')).toBe(false);
 });
 
-test('we receive true when trying to delete from an empty linked list', () => {
+test('we receive true when successfully deleting a node', () => {
     const ll = new LinkedList();
     const firstData = {'repoName': 'JavaScriptAlgorithms', 'owner': 'vJechsmayr'};
 
