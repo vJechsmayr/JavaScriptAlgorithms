@@ -54,7 +54,7 @@ test('we can delete from the linked list', () => {
     expect(ll.head).toEqual(null);
 });
 
-test('we receive false when trying to delete a non-existant node', () => {
+test('we receive false when trying to delete a non-existent node', () => {
     const ll = new LinkedList();
     expect (ll.deleteWithValue('repoName', 'nothing')).toBe(false);
 });
@@ -83,7 +83,7 @@ test('we can retrieve a node from the linked list', () => {
     expect(fb).toEqual(secondNode);
 });
 
-test('we receive null when retreiving a non-existant node', () => {
+test('we receive null when retreiving a non-existent node', () => {
     const ll = new LinkedList();
 
     const firstData = {'repoName': 'JavaScriptAlgorithms', 'owner': 'vJechsmayr'};
