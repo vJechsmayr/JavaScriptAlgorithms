@@ -1,27 +1,13 @@
-function isPalindromeRecursive(chars, s, e) {
-  if (s === e) {
-    return true;
-  }
-  
-  if (chars[s] !== chars[e]) {
-    return false;
-  }
-
-  if (s < e + 1) {
-    return isPalindromeRecursive(chars, s + 1, e - 1)
-  }
-
-  return true;
-}
-
-function isPalindrome(s) {
-  // convert the input to string
-  const chars = String(s);
-  const len = chars.length
-  if (len <= 1) {
-    return true
-  }
-  return isPalindromeRecursive(chars, 0, len - 1);
+function isPalindrome(number) {
+  if (!Number.isInteger(number)) return false;
+  const str = number.toString();
+  return (
+    str ===
+    str
+      .split('')
+      .reverse()
+      .join('')
+  );
 }
 
 module.exports = isPalindrome;

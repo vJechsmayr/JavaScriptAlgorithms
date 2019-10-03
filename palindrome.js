@@ -1,23 +1,14 @@
 <script>
-	function is_palindrome(number)
-	{
-		var rem, temp, final = 0;
-
-		temp = number;
-		while(number>0)
-		{
-			rem = number%10;
-			number = parseInt(number/10);
-			final = final*10+rem;
-		}
-		if(final==temp)
-		{
-			return true;
-		}
-		else
-		{
-			return false;
-		}
+	function isPalindrome(number) {
+		if (!Number.isInteger(number)) return false;
+		const str = number.toString();
+		return (
+			str ===
+			str
+				.split('')
+				.reverse()
+				.join('')
+		);
 	}
   
   
