@@ -12,6 +12,6 @@
 	}
   
   
-  console.log(is_palindrome(121));  //TRUE
-  console.log(is_palindrome(123));  //False
+  console.log(isPalindrome(121));  //TRUE
+  console.log(isPalindrome(123));  //False
 </script>
