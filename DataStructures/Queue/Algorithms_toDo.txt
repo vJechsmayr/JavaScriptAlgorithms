@@ -1,0 +1,3 @@
++ queue on list
++ queue on pseudo stack
++ double ended queue

@@ -1,0 +1,4 @@
++ linked list
++ double linked list
++ is palindrome
++ sqap nodes

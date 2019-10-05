@@ -1,0 +1,7 @@
++ boyer moore search
++ knutz morris pratt
++ levenshtein distance
++ manacher
++ min cost string conversion
++ naive string search
++ rabin karp
