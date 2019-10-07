@@ -1,5 +1,6 @@
-// solution to classic two sum problem (first easy problem in leetcode)
-
+/*
+	LeetCode Problem #1 Two Sum
+*/
 function twoSum(arr, target)
 {
  const sizeOfArray = arr.length;

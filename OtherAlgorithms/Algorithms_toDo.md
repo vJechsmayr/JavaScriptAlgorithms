@@ -1,6 +1,7 @@
+# Algorithms ToDo
+
 + anagrams
 + palindrome
-+ two sum
 + word patterns
 + game of life
 + password generator
