@@ -1,3 +1,2 @@
 + stack
-+ next greater element
 + balanced parentheses
