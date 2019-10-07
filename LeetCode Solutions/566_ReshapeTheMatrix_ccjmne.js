@@ -24,9 +24,9 @@ function* traverse(matrix) {
  * @param {number} c
  * @return {number[][]}
  */
-var matrixReshape = function(nums, r, c) {
-  if (nums.length * nums[0].length > r * c) {
-    // The original matrix can't fit the requested shape
+var matrixReshape = function (nums, r, c) {
+  if (nums.length * nums[0].length !== r * c) {
+    // Both matrices don't hold the same number of elements.
     return nums;
   }
 
