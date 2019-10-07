@@ -1,4 +1,0 @@
-+ stack
-+ next greater element
-+ postfix evaluation
-+ balanced parentheses

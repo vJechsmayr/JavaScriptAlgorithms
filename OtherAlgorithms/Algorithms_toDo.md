@@ -1,0 +1,8 @@
+# Algorithms ToDo
+
++ anagrams
++ palindrome
++ word patterns
++ game of life
++ password generator
++ tower of hanoi
