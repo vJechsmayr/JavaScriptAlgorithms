@@ -5,4 +5,3 @@
 + levenshtein distance
 + manacher
 + min cost string conversion
-+ rabin karp

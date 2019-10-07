@@ -1,6 +1,5 @@
 # Algorithms ToDo
 
-+ linked list
 + double linked list
 + is palindrome
 + sqap nodes

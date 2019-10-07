@@ -1,16 +1,14 @@
-function binarySearch(arr, target) {
-  let left = 0;
-  let right = arr.length - 1;
-  while (left <= right) {
-      const mid = left + Math.floor((right - left) / 2);
-      if (arr[mid] === target) {
-          return mid;
-      }
-      if (arr[mid] < target) {
-          left = mid + 1;
+function binarySearch(sortedArray, elementToFind) {
+    var lowIndex = 0;
+    var highIndex = sortedArray.length - 1;
+    while (lowIndex <= highIndex) {
+      var midIndex = Math.floor((lowIndex + highIndex) / 2);
+      if (sortedArray[midIndex] == elementToFind) {
+        return midIndex;
+      } else if (sortedArray[midIndex] < elementToFind) {
+        lowIndex = midIndex + 1;
       } else {
-          right = mid - 1;
+        highIndex = midIndex - 1;
       }
+    } return null;
   }
-  return -1;
-}
