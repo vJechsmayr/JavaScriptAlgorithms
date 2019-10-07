@@ -10,6 +10,9 @@ You can look for Algorithms to implement at: [LeetCode Algorithms](https://leetc
 
 To contribute make sure the Algorithm isn't commited yet! Make sure to add the number of the Issue in your PR.
 
+## Folders and Files
+Please make sure your file is in the correct Folder - You can find a `Algorithms_ToDo`-File in the Folders where your Algorithm is listed. Please delete your Algorithm from this file when adding your file with the Algorithm to the directory.
+
 
 ## Getting Started
 * Fork this repository (Click the Form button, top right of this page)
