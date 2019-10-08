@@ -1,13 +1,6 @@
 /**
  * @param {number} n
  * @return {string[]}
- * [
-  "((()))",
-  "(()())",
-  "(())()",
-  "()(())",
-  "()()()"
-]
  */
 const generateParenthesis = function(n) {
     if (n === 0) {
