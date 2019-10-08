@@ -7,4 +7,3 @@
 + Combination Sum [LeetCode #39](https://leetcode.com/problems/combination-sum/)
 + Wildcard Matching [LeetCode #44](https://leetcode.com/problems/wildcard-matching/)
 + N-Queens [LeetCode #51](https://leetcode.com/problems/n-queens/)
-+ Restore IP Addresses [LeetCode #93](https://leetcode.com/problems/restore-ip-addresses/)
