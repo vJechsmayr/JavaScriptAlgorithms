@@ -10,7 +10,7 @@ var combine = function(n, k) {
          let num = [];
             num.push(n);
             num.push(j);
-            numbers.push(num_2);
+            numbers.push(num);
         }
     }
     return numbers;
