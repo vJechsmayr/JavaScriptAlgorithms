@@ -1,6 +1,3 @@
 # Algorithms ToDo
 
-+ Valid Sudoku [LeetCode #36](https://leetcode.com/problems/valid-sudoku/)
-+ Letter Combination of a Phone Number [LeetCode #17](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
 + Wildcard Matching [LeetCode #44](https://leetcode.com/problems/wildcard-matching/)
-+ N-Queens [LeetCode #51](https://leetcode.com/problems/n-queens/)
