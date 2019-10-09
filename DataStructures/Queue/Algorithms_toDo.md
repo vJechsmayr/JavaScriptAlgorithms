@@ -6,7 +6,6 @@
 
 + Range Sum Query - Immutable (LeetCode #303)
 + Implement Stack using Queue (LeetCode #225)
-+ Implement Queue using Stacks (LeetCode #232)
 + Lemonade Change (LeetCode #860)
 + Sum of Even Numbers After Queries (LeetCode #985)
 
