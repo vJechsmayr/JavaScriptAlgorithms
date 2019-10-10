@@ -1,6 +1,5 @@
 function isSquareFree(num = 0) {
   for (let i = 2; i < Math.round(Math.sqrt(num) + 1); i++) {
-    debugger;
     if (num % Math.pow(i, 2) === 0) return false;
   }
   return true;
