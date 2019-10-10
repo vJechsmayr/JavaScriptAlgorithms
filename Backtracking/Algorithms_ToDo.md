@@ -1,8 +1,7 @@
 # Algorithms ToDo
 
-+ Valid Sudoku [LeetCode #36](https://leetcode.com/problems/valid-sudoku/)
-+ Regular Expression Matching [LeetCode #10](https://leetcode.com/problems/regular-expression-matching/)
-+ Letter Combination of a Phone Number [LeetCode #17](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
-+ Generate Parentheses [LeetCode #22](https://leetcode.com/problems/generate-parentheses/)
-+ Combination Sum [LeetCode #39](https://leetcode.com/problems/combination-sum/)
 + Wildcard Matching [LeetCode #44](https://leetcode.com/problems/wildcard-matching/)
++ Permutations LeetCode #46
++ Permutations II LeetCode #47
++ Combinations LeetCode #77
++ Subsets LeetCode #78

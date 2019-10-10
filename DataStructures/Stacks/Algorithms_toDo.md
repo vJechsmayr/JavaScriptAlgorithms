@@ -1,8 +1,6 @@
 # Algorithms ToDo
 
 + stack
-+ next greater element
-+ postfix evaluation
 + balanced parentheses
 
 + Min Stack  (LeetCode #155)

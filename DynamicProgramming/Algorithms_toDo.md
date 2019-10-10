@@ -5,9 +5,6 @@
 + blimbing stairs
 + coin change
 + edit distance
-+ factorial
-+ fast fibonacci
-+ fibonacci
 + floyd warshall
 + integer partition
 + longest commen subsequence
