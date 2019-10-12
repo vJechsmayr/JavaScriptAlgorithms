@@ -28,8 +28,8 @@ export default function rabinKarp(text, word) {
     prevFrame = currentFrame;
 
     // Compare the hash of current substring and seeking string.
-    // In case if hashes match let's make sure that substrings are equal.
-    // In case of hash collision the strings may not be equal.
+    // In case if hashes match, let's make sure that substrings are equal.
+    // In case of hash collision, the strings may not be equal.
     if (
       wordHash === currentFrameHash
       && text.substr(charIndex, word.length) === word
