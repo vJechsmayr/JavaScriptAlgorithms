@@ -4,4 +4,3 @@
 + word patterns
 + game of life
 + password generator
-+ tower of hanoi
