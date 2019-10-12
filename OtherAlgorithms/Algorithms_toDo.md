@@ -3,4 +3,3 @@
 + anagrams
 + word patterns
 + game of life
-+ password generator
