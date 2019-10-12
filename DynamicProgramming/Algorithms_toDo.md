@@ -2,7 +2,6 @@
 
 + abbreviation
 + bitmask
-+ blimbing stairs
 + coin change
 + edit distance
 + floyd warshall
