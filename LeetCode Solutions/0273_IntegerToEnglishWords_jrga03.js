@@ -4,9 +4,10 @@
  */
 var numberToWords = function(num) {
     if ( !num ) return 'Zero';
+    if ( num > 999999999999 ) return 'Number too high';
 
     let word = '';
-    if ( num <= 1000 ) {
+    if ( num < 1000 ) {
         word += convertLessThanAThousandToWords( num );
     } else {
         let unit;
@@ -30,7 +31,11 @@ var numberToWords = function(num) {
         const x = Math.floor( num / multiplier );
 
         word += `${convertLessThanAThousandToWords( x )} ${unit} `;
-        word += numberToWords( num - ( x * multiplier ) );
+        
+        const remaining = num - ( x * multiplier );
+        if ( remaining ) {
+            word += numberToWords( remaining );
+        }
     }
 
     return word.trim();
