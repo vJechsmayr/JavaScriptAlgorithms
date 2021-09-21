@@ -3,6 +3,8 @@
 ### All algorithms implemented in JavaScript (for education)
 There implementations are for learning purposes. If you want to contribute more efficient solutions feel free to open an issue and commit your solution.
 
+This Repository is open for **Hacktoberfest 2019 ONLY**! No PRs/Issues for Hacktoberfest 2020 or later will be accepted and marked as **invalid/spam**
+
 
 ## Inspiration
 
